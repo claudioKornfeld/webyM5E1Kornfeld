@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head') %>
+    <%- include('partials/header') %>
+
+        <body>
+            <main>
+                <br>
+                <br>
+
+                <div class="form_login">
+                    <form action="" method="POST">
+                        <label><h4> INGRESA A TU CUENTA</h4></label>
+                        <ul>
+                            <li>
+                                <div class="fl_usuario">
+                                    <input type="text" name="nombreUsuario" id="nombreUsuario" required placeholder="* Ingresa tu Nombre de Usuario">
+                                </div>
+                            </li>
+                            <div class="fl_password">
+                                <label> Ingresa tu contaseña</label>
+                                <li>
+                                    <input type="password" name="passwordUsuario" id="passwordUsuario" required placeholder="* Contraseña">
+                                </li>
+                            </div>
+                            <br>
+                            <div class="fl_registro">
+                                <a><button type="submit">Ingresar a mi cuenta</button></a>
+                            </div>
+                            <br>
+                            <div class="fl_limpiar">
+                                <h3><button type="reset">Limpiar Todo</button></h3>
+                            </div>
+                            <div class="fl_olvido">
+                                <label>Olvidaste tu contraseña?</label>
+                            </div>
+                            <div class="fl_noRegistrado">
+                                <li><a href="/register"> No estas Registrado? </a></li>
+
+                            </div>
+                    </form>
+                </div>
+            </main>
+
+
+            <footer class="footer">
+                <div class="feet">
+                    <div class="onefoot">
+                        <i class="fas fa-credit-card fa-2x"></i>
+                        <h4>Paga con Tarjeta o en efectivo</h4>
+                        <p>
+                            Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!
+                        </p>
+                    </div>
+                    <div class="onefoot">
+                        <i class="fas fa-gift fa-2x"></i>
+                        <h4>Envío gratis desde $ 2.500</h4>
+                        <p>
+                            Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.
+                        </p>
+                    </div>
+                    <div class="onefoot">
+                        <i class="fas fa-user-shield fa-2x"></i>
+                        <h4>Seguridad de principio a fin</h4>
+                        <p>
+                            ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.
+                        </p>
+                    </div>
+                </div>
+                <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+            </footer>
+            </div>
+            </main>
+        </body>
+
+</html>
